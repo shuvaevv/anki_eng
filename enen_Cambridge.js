@@ -7,10 +7,7 @@ class encn_Cambridge {
     }
 
     async displayName() {
-        let locale = await api.locale();
-        if (locale.indexOf('CN') != -1) return '剑桥英汉双解(简体)';
-        if (locale.indexOf('TW') != -1) return '劍橋英漢雙解(簡體)';
-        return 'Cambridge EN->EN Dictionary';
+	return 'Cambridge EN->EN Dictionary';
     }
 
     setOptions(options) {

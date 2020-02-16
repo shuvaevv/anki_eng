@@ -47,7 +47,7 @@ class enen_Cambridge {
     async findCambridge(word) {
         if (!word) return null;
 
-        let base = 'https://dictionary.cambridge.org/dictionary/english/';
+        let base = 'https://dictionary.cambridge.org/dictionary/english-russian/';
         let url = base + encodeURIComponent(word);
         let doc = '';
         try {

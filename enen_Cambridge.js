@@ -7,7 +7,7 @@ class enen_Cambridge {
     }
 
     async displayName() {
-        return 'Cambridge EN Dictionary';
+        return 'Cambridge EN->RUS Dictionary';
     }
 
     setOptions(options) {
